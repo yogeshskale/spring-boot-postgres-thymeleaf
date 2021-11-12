@@ -48,7 +48,7 @@ public class DatabasePropertiesListener implements ApplicationListener<Applicati
 
         // sample codes from AWS
 	private String getSecret() {
-		String secretName = "Admin";
+		String secretName = "JavaApp_Secret";
 		String region = "us-west-2";
         AWSSecretsManager client  = AWSSecretsManagerClientBuilder.standard()
                                     .withRegion(region)
